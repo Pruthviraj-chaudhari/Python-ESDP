@@ -124,6 +124,30 @@
 #     i = i+1
 
 
+# for i in range(0, 6):
+#     for j in range(0, i):
+#         print("*", end=" ")
+#     print("")
+
+# n = 6
+
+# for i in range(0, n):
+#     # Space
+#     for j in range(0, n-i):
+#         print(" ", end=" ")
+#     # Star
+#     for j in range(1, i+2):
+#         print(j," ", end=" ")
+#     print("")
+
+# for i in range(0,n):
+#     # space
+#     for j in range(0, n-i-1):
+#         print(" ", end=" ")
+#     # star
+#     for j in range(0, i-1):
+#         print("*", end=" ")   
+#     print("")     
 
 
 
