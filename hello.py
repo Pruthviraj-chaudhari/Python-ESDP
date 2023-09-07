@@ -177,17 +177,30 @@ import math
 
 
 # print all armstrong
-def isArmstrong(n):
-    digit = math.floor(math.log10(n)+1)
-    num = n
-    sum = 0
-    while(num!=0):
-        last = num%10
-        sum += math.pow(last, digit)
-        num//=10
+# def isArmstrong(n):
+#     digit = math.floor(math.log10(n)+1)
+#     num = n
+#     sum = 0
+#     while(num!=0):
+#         last = num%10
+#         sum += math.pow(last, digit)
+#         num//=10
 
-    return sum == n    
+#     return sum == n    
 
-for i in range(100, 10000000000):
-    if(isArmstrong(i)):
-        print(i)
+# for i in range(100, 10000000000):
+#     if(isArmstrong(i)):
+#         print(i)
+
+
+# GCD using Euclid's Algorithm 
+a = int(input("Enter a Number: "))
+b = int(input("Enter a Number: "))
+
+def Euclid(a, b):
+    if(a==0):
+        return b
+
+    return Euclid(b%a, a)
+
+print(Euclid(a, b))
