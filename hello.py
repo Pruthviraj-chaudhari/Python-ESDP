@@ -160,4 +160,17 @@ import math
 #     num//=10
 # print(int(rev))
 
+# Armstrong Number
+# n = int(input("Enter a Number: "))
+# digit = math.floor(math.log10(n)+1)
+# num = n
+# sum = 0
+# while(num!=0):
+#     last = num%10
+#     sum += math.pow(last, digit)
+#     num//=10
 
+# if(sum == n):
+#     print(n,"is an Armstrong Number")  
+# else:
+#     print(n,"is not an Armstrong Number") 
