@@ -174,3 +174,20 @@ import math
 #     print(n,"is an Armstrong Number")  
 # else:
 #     print(n,"is not an Armstrong Number") 
+
+
+# print all armstrong
+def isArmstrong(n):
+    digit = math.floor(math.log10(n)+1)
+    num = n
+    sum = 0
+    while(num!=0):
+        last = num%10
+        sum += math.pow(last, digit)
+        num//=10
+
+    return sum == n    
+
+for i in range(100, 10000000000):
+    if(isArmstrong(i)):
+        print(i)
