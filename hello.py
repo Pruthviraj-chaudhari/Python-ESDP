@@ -149,8 +149,15 @@
 #         print("*", end=" ")   
 #     print("")     
 
-
-
-
+import math
+# Reverse Number
+# n = int(input("Enter a Number: "))
+# num = n
+# rev = 0
+# while(num != 0):
+#     lastDigit = num%10
+#     rev = (rev * 10) + lastDigit 
+#     num//=10
+# print(int(rev))
 
 
