@@ -194,13 +194,15 @@ import math
 
 
 # GCD using Euclid's Algorithm 
-a = int(input("Enter a Number: "))
-b = int(input("Enter a Number: "))
+# a = int(input("Enter a Number: "))
+# b = int(input("Enter a Number: "))
 
-def Euclid(a, b):
-    if(a==0):
-        return b
+# def Euclid(a, b):
+#     if(a==0):
+#         return b
 
-    return Euclid(b%a, a)
+#     return Euclid(b%a, a)
 
-print(Euclid(a, b))
+# print(Euclid(a, b))
+
+    
