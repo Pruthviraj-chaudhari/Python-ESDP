@@ -21,8 +21,6 @@ class ElectricityBill:
     def printBill(self):
         print(self.name,"\t",str(self.units),"\t",str(self.bill))    
 
-
-
 user1 = ElectricityBill("Gopal", 30)
 user2 = ElectricityBill("Sandip", 50)
 user3 = ElectricityBill("Paresh", 300)
