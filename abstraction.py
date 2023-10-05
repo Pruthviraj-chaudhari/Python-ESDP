@@ -50,4 +50,4 @@ print(language_course.get_details())
 
 student1 = "Emma Johnson"
 progCource.enroll(student1)
-print(f"{student1} has enrolled in {progCource.title}")
+print(f"\n{student1} has enrolled in {progCource.title}")
